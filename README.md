@@ -16,3 +16,12 @@ result day 01 part 2 using itertools: triple=(470, 668, 882), product=276912720 
 ± python day02.py
 result day 02 part 1: 625 in 0.3575 ms
 result day 02 part 2: 391 in 0.2685 ms
+```
+
+## Day 3
+
+```
+± python day03.py
+result day 03 part 1: 242 in 0.4332 ms
+result day 03 part 2: 2265549792 in 0.6305 ms
+```
