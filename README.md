@@ -25,3 +25,11 @@ result day 02 part 2: 391 in 0.2685 ms
 result day 03 part 1: 242 in 0.4332 ms
 result day 03 part 2: 2265549792 in 0.6305 ms
 ```
+
+## Day 4
+
+```
+± python day04.py
+result day 04 part 1: 192 in 0.3534 ms
+result day 04 part 2: 101 in 1.086 ms
+```
