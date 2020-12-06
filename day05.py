@@ -10,18 +10,19 @@ def check_boardingpass(code):
 
 
 def get_pos(row, lim_min=0, lim_max=127):
-    char = row[0]
-    if len(row) == 1:
-        if char == 'L':
-            return lim_min
+    while len(row) > 1:
+        step = (lim_max + 1 - lim_min) / 2
+        if row[0] == 'L':
+            lim_max -= step
         else:
-            return lim_max
+            lim_min += step
+        row = row[1:]
 
-    step = (lim_max + 1 - lim_min) / 2
-    if char == 'L':
-        return get_pos(row[1:], lim_min, lim_max - step)
+    if row[0] == 'L':
+        return lim_min
     else:
-        return get_pos(row[1:], lim_min + step, lim_max)
+        return lim_max
+
 
 
 def get_seat_id(seat_ids):
