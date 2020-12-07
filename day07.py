@@ -6,6 +6,9 @@ from utils.time import get_time
 NO_OTHER="no other"
 RE_CNT_COLOR=re.compile(r"(\d)? ?(\w* \w*) bag")
 
+# use a global as cache.
+cache = {}
+
 
 def build_tree(rules):
     tree = {}
@@ -16,10 +19,13 @@ def build_tree(rules):
 
 
 def get_carrier(tree, color):
+    global cache
     bags = []
     for bag in tree:
         if color in tree[bag]:
-            bags.extend([bag] + get_carrier(tree, bag))
+            if not bag in cache:
+                cache[bag] = get_carrier(tree, bag)
+            bags.extend([bag] + cache[bag])
     return list(set(bags))
 
 

@@ -54,6 +54,6 @@ result day 06 part 2: 3143 in 2.8578 ms
 
 ```
 ± python day07.py
-result day 07 part 1: 355 in 85.6027 ms
-result day 07 part 2: 5312 in 0.0462 ms
+result day 07 part 1: 355 in 25.8189 ms
+result day 07 part 2: 5312 in 0.0475 ms
 ```
