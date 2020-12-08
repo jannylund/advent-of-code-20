@@ -57,3 +57,11 @@ result day 06 part 2: 3143 in 2.8578 ms
 result day 07 part 1: 355 in 25.8189 ms
 result day 07 part 2: 5312 in 0.0475 ms
 ```
+
+## Day 8
+
+```
+± python day08.py
+result day 07 part 1: 1930 in 0.701 ms
+result day 07 part 2: 1688 in 32.7765 ms
+```
