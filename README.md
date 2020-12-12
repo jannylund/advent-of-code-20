@@ -79,3 +79,11 @@ result day 09 part 2: 3535124 in 8.0075 ms
 result day 10 part 1: 2070 in 0.0342 ms
 result day 10 part 2: 24179327893504 in 0.1909 ms
 ```
+
+
+## Day 12
+```
+± python day12.py
+result day 12 part 1: 1687 in 0.862 ms
+result day 12 part 2: 20873 in 0.7241 ms
+```
