@@ -94,3 +94,10 @@ result day 12 part 2: 20873 in 0.7241 ms
 result day 13 part 1: 410 in 0.0568 ms
 result day 13 part 2: 600691418730595 in 0.5202 ms
 ```
+
+## Day 14
+```
+± python day14.py
+result day 14 part 1: 5055782549997 in 3.4933 ms
+result day 14 part 2: 4795970362286 in 280.5985 ms
+```
